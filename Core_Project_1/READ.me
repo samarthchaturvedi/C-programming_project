@@ -1,0 +1,33 @@
+# File Organizer in C
+
+## 📌 Description
+A simple automation tool written in C that organizes files in a directory based on their file extensions.
+
+## 🚀 Features
+- Automatically detects file types
+- Creates folders (Images, Documents, Videos, Others)
+- Moves files into appropriate folders
+- Simple CLI-based execution
+
+## 🛠️ Concepts Used
+- File handling in C
+- Directory operations (dirent.h)
+- System commands
+- String manipulation
+
+## ▶️ How to Run
+```bash
+gcc file_organizer.c -o organizer
+./organizer
+
+
+## Output Example - 
+Before:
+img.jpg
+notes.pdf
+video.mp4
+
+## After:
+/Images/img.jpg
+/Documents/notes.pdf
+/Videos/video.mp4
